@@ -1,0 +1,436 @@
+# vsim +UVM_TESTNAME=add_sub_random_test -assertdebug -coverage -fsmdebug -c -debugDB top_opt 
+# Loading sv_std.std
+# Loading work.param_pkg
+# Loading mtiUvm.uvm_pkg
+# Loading work.add_sub_pkg
+# Loading work.add_sub_top_sv_unit
+# Loading work.add_sub_top(fast)
+# Loading work.add_intf(fast)
+# Loading work.sub_intf(fast)
+# Loading work.Add_Sub(fast)
+# Loading D:\questasim_10.0b\uvm-1.0p1\win32\uvm_dpi.dll
+# 1
+# ----------------------------------------------------------------
+# UVM-1.0p1 
+# (C) 2007-2011 Mentor Graphics Corporation
+# (C) 2007-2011 Cadence Design Systems, Inc.
+# (C) 2006-2011 Synopsys, Inc.
+# ----------------------------------------------------------------
+# UVM_INFO @ 0: reporter [RNTST] Running test add_sub_random_test...
+# UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# uvm_test_top               add_sub_random_test     -     @465 
+#   env                      add_sub_env             -     @474 
+#     add_agnt               add_agent               -     @490 
+#       add_drv              add_driver              -     @637 
+#         rsp_port           uvm_analysis_port       -     @652 
+#         sqr_pull_port      uvm_seq_item_pull_port  -     @644 
+#       add_mon              add_monitor             -     @660 
+#         add_mon_port       uvm_analysis_port       -     @670 
+#       add_sqr              add_sequencer           -     @528 
+#         rsp_export         uvm_analysis_export     -     @535 
+#         seq_item_export    uvm_seq_item_pull_imp   -     @629 
+#         arbitration_queue  array                   0     -    
+#         lock_queue         array                   0     -    
+#         num_last_reqs      integral                32    'd1  
+#         num_last_rsps      integral                32    'd1  
+#     add_scb                add_scoreboard          -     @504 
+#       add_scb_imp          uvm_analysis_imp        -     @511 
+#     sub_agnt               sub_agent               -     @497 
+#       sub_drv              sub_driver              -     @797 
+#         rsp_port           uvm_analysis_port       -     @812 
+#         sqr_pull_port      uvm_seq_item_pull_port  -     @804 
+#       sub_mon              sub_monitor             -     @820 
+#         sub_mon_port       uvm_analysis_port       -     @830 
+#       sub_sqr              sub_sequencer           -     @688 
+#         rsp_export         uvm_analysis_export     -     @695 
+#         seq_item_export    uvm_seq_item_pull_imp   -     @789 
+#         arbitration_queue  array                   0     -    
+#         lock_queue         array                   0     -    
+#         num_last_reqs      integral                32    'd1  
+#         num_last_rsps      integral                32    'd1  
+#     sub_scb                sub_scoreboard          -     @519 
+#       sub_scb_imp          uvm_analysis_imp        -     @846 
+# --------------------------------------------------------------
+# 
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @864 
+#   a                        integral                10    'd309
+#   b                        integral                10    'd341
+#   add                      integral                11    'd650
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @858 
+#   x                        integral                10    917  
+#   y                        integral                10    'd280
+#   sub                      integral                11    'd637
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 65: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @   65: a= 309    b= 341  Exp= 650  Actual= 650
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 65: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @   65: x= 917    y= 280  Exp= 637  Actual= 637
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @934 
+#   a                        integral                10    'd151
+#   b                        integral                10    'd143
+#   add                      integral                11    'd294
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @938 
+#   x                        integral                10    907  
+#   y                        integral                10    583  
+#   sub                      integral                11    'd324
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 85: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @   85: a= 151    b= 143  Exp= 294  Actual= 294
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 85: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @   85: x= 907    y= 583  Exp= 324  Actual= 324
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @950 
+#   a                        integral                10    'd48 
+#   b                        integral                10    'd3  
+#   add                      integral                11    'd51 
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @954 
+#   x                        integral                10    993  
+#   y                        integral                10    966  
+#   sub                      integral                11    'd27 
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 105: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @  105: a=  48    b=   3  Exp=  51  Actual=  51
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 105: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @  105: x= 993    y= 966  Exp=  27  Actual=  27
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @966 
+#   a                        integral                10    'd370
+#   b                        integral                10    629  
+#   add                      integral                11    'd999
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @970 
+#   x                        integral                10    896  
+#   y                        integral                10    757  
+#   sub                      integral                11    'd139
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 125: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @  125: a= 370    b= 629  Exp= 999  Actual= 999
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 125: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @  125: x= 896    y= 757  Exp= 139  Actual= 139
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @982 
+#   a                        integral                10    'd465
+#   b                        integral                10    514  
+#   add                      integral                11    'd979
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @986 
+#   x                        integral                10    603  
+#   y                        integral                10    'd68 
+#   sub                      integral                11    'd535
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 145: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @  145: a= 465    b= 514  Exp= 979  Actual= 979
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 145: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @  145: x= 603    y=  68  Exp= 535  Actual= 535
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @998 
+#   a                        integral                10    'd111
+#   b                        integral                10    800  
+#   add                      integral                11    'd911
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @1002
+#   x                        integral                10    600  
+#   y                        integral                10    'd391
+#   sub                      integral                11    'd209
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 165: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @  165: a= 111    b= 800  Exp= 911  Actual= 911
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 165: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @  165: x= 600    y= 391  Exp= 209  Actual= 209
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @1014
+#   a                        integral                10    'd212
+#   b                        integral                10    1011 
+#   add                      integral                11    1223 
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @1018
+#   x                        integral                10    1015 
+#   y                        integral                10    'd355
+#   sub                      integral                11    'd660
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 185: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @  185: a= 212    b=1011  Exp=1223  Actual=1223
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 185: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @  185: x=1015    y= 355  Exp= 660  Actual= 660
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @1030
+#   a                        integral                10    534  
+#   b                        integral                10    'd409
+#   add                      integral                11    'd943
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @1034
+#   x                        integral                10    'd265
+#   y                        integral                10    'd117
+#   sub                      integral                11    'd148
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 205: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @  205: a= 534    b= 409  Exp= 943  Actual= 943
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 205: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @  205: x= 265    y= 117  Exp= 148  Actual= 148
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @1046
+#   a                        integral                10    613  
+#   b                        integral                10    554  
+#   add                      integral                11    1167 
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @1050
+#   x                        integral                10    'd245
+#   y                        integral                10    'd55 
+#   sub                      integral                11    'd190
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 225: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @  225: a= 613    b= 554  Exp=1167  Actual=1167
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 225: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @  225: x= 245    y=  55  Exp= 190  Actual= 190
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @1062
+#   a                        integral                10    'd287
+#   b                        integral                10    'd27 
+#   add                      integral                11    'd314
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @1066
+#   x                        integral                10    966  
+#   y                        integral                10    'd406
+#   sub                      integral                11    'd560
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 245: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @  245: a= 287    b=  27  Exp= 314  Actual= 314
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 245: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @  245: x= 966    y= 406  Exp= 560  Actual= 560
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @1078
+#   a                        integral                10    888  
+#   b                        integral                10    791  
+#   add                      integral                11    1679 
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @1082
+#   x                        integral                10    573  
+#   y                        integral                10    'd503
+#   sub                      integral                11    'd70 
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 265: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @  265: a= 888    b= 791  Exp=1679  Actual=1679
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 265: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @  265: x= 573    y= 503  Exp=  70  Actual=  70
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @1094
+#   a                        integral                10    587  
+#   b                        integral                10    'd257
+#   add                      integral                11    'd844
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @1098
+#   x                        integral                10    727  
+#   y                        integral                10    'd345
+#   sub                      integral                11    'd382
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 285: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @  285: a= 587    b= 257  Exp= 844  Actual= 844
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 285: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @  285: x= 727    y= 345  Exp= 382  Actual= 382
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @1110
+#   a                        integral                10    'd501
+#   b                        integral                10    722  
+#   add                      integral                11    1223 
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @1114
+#   x                        integral                10    'd472
+#   y                        integral                10    'd424
+#   sub                      integral                11    'd48 
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 305: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @  305: a= 501    b= 722  Exp=1223  Actual=1223
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 305: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @  305: x= 472    y= 424  Exp=  48  Actual=  48
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @1126
+#   a                        integral                10    'd211
+#   b                        integral                10    'd159
+#   add                      integral                11    'd370
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @1130
+#   x                        integral                10    978  
+#   y                        integral                10    890  
+#   sub                      integral                11    'd88 
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 325: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @  325: a= 211    b= 159  Exp= 370  Actual= 370
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 325: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @  325: x= 978    y= 890  Exp=  88  Actual=  88
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @1142
+#   a                        integral                10    'd470
+#   b                        integral                10    721  
+#   add                      integral                11    1191 
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @1146
+#   x                        integral                10    'd199
+#   y                        integral                10    'd190
+#   sub                      integral                11    'd9  
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 345: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @  345: a= 470    b= 721  Exp=1191  Actual=1191
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 345: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @  345: x= 199    y= 190  Exp=   9  Actual=   9
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @1158
+#   a                        integral                10    792  
+#   b                        integral                10    831  
+#   add                      integral                11    1623 
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @1162
+#   x                        integral                10    678  
+#   y                        integral                10    604  
+#   sub                      integral                11    'd74 
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 365: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @  365: a= 792    b= 831  Exp=1623  Actual=1623
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 365: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @  365: x= 678    y= 604  Exp=  74  Actual=  74
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @1174
+#   a                        integral                10    'd40 
+#   b                        integral                10    'd15 
+#   add                      integral                11    'd55 
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @1178
+#   x                        integral                10    990  
+#   y                        integral                10    'd455
+#   sub                      integral                11    'd535
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 385: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @  385: a=  40    b=  15  Exp=  55  Actual=  55
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 385: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @  385: x= 990    y= 455  Exp= 535  Actual= 535
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @1190
+#   a                        integral                10    'd437
+#   b                        integral                10    'd243
+#   add                      integral                11    'd680
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @1194
+#   x                        integral                10    1021 
+#   y                        integral                10    694  
+#   sub                      integral                11    'd327
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 405: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @  405: a= 437    b= 243  Exp= 680  Actual= 680
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 405: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @  405: x=1021    y= 694  Exp= 327  Actual= 327
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @1206
+#   a                        integral                10    'd234
+#   b                        integral                10    'd193
+#   add                      integral                11    'd427
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @1210
+#   x                        integral                10    776  
+#   y                        integral                10    'd466
+#   sub                      integral                11    'd310
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 425: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @  425: a= 234    b= 193  Exp= 427  Actual= 427
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 425: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @  425: x= 776    y= 466  Exp= 310  Actual= 310
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# add_item                   add_sequence_item       -     @1222
+#   a                        integral                10    'd260
+#   b                        integral                10    'd322
+#   add                      integral                11    'd582
+# --------------------------------------------------------------
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# sub_item                   sub_sequence_item       -     @1226
+#   x                        integral                10    'd412
+#   y                        integral                10    'd210
+#   sub                      integral                11    'd202
+# --------------------------------------------------------------
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//add_scoreboard.svh(43) @ 445: uvm_test_top.env.add_scb [COMPARE_ADD_PASSED]  @  445: a= 260    b= 322  Exp= 582  Actual= 582
+# UVM_INFO E:/UVM/Add_Sub/Add_Sub_Basic/tb//sub_scoreboard.svh(42) @ 445: uvm_test_top.env.sub_scb [COMPARE_SUB_PASSED] @  445: x= 412    y= 210  Exp= 202  Actual= 202
+# UVM_INFO verilog_src/uvm-1.0p1/src/base/uvm_objection.svh(1116) @ 450: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   43
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [COMPARE_ADD_PASSED]    20
+# [COMPARE_SUB_PASSED]    20
+# [RNTST]     1
+# [TEST_DONE]     1
+# [UVMTOP]     1
+# ** Note: $finish    : D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh(392)
+#    Time: 450 ns  Iteration: 44  Instance: /add_sub_top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at D:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh line 392

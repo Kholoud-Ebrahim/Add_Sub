@@ -1,0 +1,16 @@
+Coverage Report Summary Data by file
+
+File: E:/UVM/Add_Sub/Add_Sub_Basic/rtl/Add_Sub.v
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                        5         5         0     100.0
+    Branches                     2         2         0     100.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    States                       0         0         0     100.0
+    Transitions                  0         0         0     100.0
+
+
+NEVER FAILED: 100.0%  ASSERTIONS: 30
+
+
