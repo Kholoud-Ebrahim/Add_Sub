@@ -1,4 +1,4 @@
-class add_base_sequence extends uvm_sequence;
+class add_base_sequence extends uvm_sequence #(add_sequence_item);
     `uvm_object_utils(add_base_sequence)
 
     add_sequence_item add_item;
