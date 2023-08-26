@@ -1,4 +1,4 @@
-class sub_base_sequence extends uvm_sequence;
+class sub_base_sequence extends uvm_sequence #(sub_sequence_item);
     `uvm_object_utils(sub_base_sequence)
 
     sub_sequence_item sub_item;
