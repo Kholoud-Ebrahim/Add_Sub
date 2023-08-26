@@ -11,7 +11,7 @@ A simple module which performs addition and subtraction operations.
 | a        | The first signal of Add operation  | input    | WIDTH     |
 | b        | The second signal of Add operation | input    | WIDTH     |
 | x        | The first signal of Sub operation  | input    | WIDTH     |
-| y        | The second signal of Sub operation | output   | WIDTH     |
+| y        | The second signal of Sub operation | input    | WIDTH     |
 | add      | The Addition Result                | output   | WIDTH + 1 |
 | sub      | The Subtraction  Result            | output   | WIDTH + 1 |
 
