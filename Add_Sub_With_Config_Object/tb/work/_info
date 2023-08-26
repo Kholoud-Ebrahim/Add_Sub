@@ -1,0 +1,24 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\UVM\Add_Sub\Add_Sub_Config_Object\tb
+Xparam_pkg
+Z1 DXx6 sv_std 3 std 0 22 :CP]PHbGOHGT_H:3KF`8L2
+!s100 UB=e=@?UdFJC7VJCWTNl_3
+IHJBCbG4m6<@PSCkYO9Kl82
+VHJBCbG4m6<@PSCkYO9Kl82
+S1
+Z2 dE:\UVM\Add_Sub\Add_Sub_Config_Object\tb
+w1693014577
+8param_pkg.sv
+Fparam_pkg.sv
+L0 1
+Z3 OE;L;10.0b;49
+r1
+!s85 0
+31
+!s108 1693018342.869000
+!s107 param_pkg.sv|
+!s90 -reportprogress|300|param_pkg.sv|
+o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
