@@ -23,3 +23,6 @@ A simple module which performs addition and subtraction operations.
 
 ## 3. UVM Based Testbench Architecture of Add_Sub_Two_Mon_One_Scb
 ![image](https://github.com/UserImages/user_images/blob/main/Add_Sub_Two_Mon_One_Scb.PNG)
+
+## 4.  UVM Based Testbench Architecture of Add_Sub_With_Virtual_Sequencer_Sequence
+![image](https://github.com/UserImages/user_images/blob/main/Add_Sub_With_Virtual_Sequencer_Sequence.PNG)
